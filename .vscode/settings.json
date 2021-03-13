@@ -1,3 +1,11 @@
 {
-    "volar.tsPlugin": true
+  "volar.tsPlugin": true,
+  "editor.quickSuggestions": {
+    "strings": true
+  },
+  "css.validate": false,
+  "tailwindCSS.includeLanguages": {
+    "plaintext": "html"
+  },
+  "tailwindCSS.emmetCompletions": true
 }
