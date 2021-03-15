@@ -40,7 +40,7 @@
             </div>
             <p class="text-xs leading-5 text-gray-500">@photonactivity</p>
             <P class="text-yellow-500"> Happy Coding!</P>
-            <p class="text-green-500">===><a target="_blank" href="https://github.com/photonactivity">Github</a></p>
+            <p class="text-green-500">===><a target="_blank" href="https://github.com/photonactivity/vite-vue-ts-tailwind-starter">Github</a></p>
           </form>
         </div>
       </div>
