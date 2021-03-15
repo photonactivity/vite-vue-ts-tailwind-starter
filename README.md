@@ -9,7 +9,7 @@
 #### Running the examples:
 
 ```
-git clone 
+git clone https://github.com/photonactivity/vite-vue-ts-tailwind-starter.git
 yarn install
 yarn dev
 ```
