@@ -1,21 +1,21 @@
-import { createRouter, createWebHistory } from "vue-router";
+import { createRouter, createWebHashHistory, RouteRecordRaw, RouterLink, useLink } from "vue-router"
 
-const routes = [
+const routes: RouteRecordRaw[] = [
   {
     path: "/",
     name: "Index",
-    component: () => import("../views/index.vue"),
+    component: () => import("@v/index.vue"),
   },
   {
     path: "/test",
     name: "Test",
-    component: () => import("../views/test.vue"),
+    component: () => import("@v/test.vue"),
   },
-];
+]
 
 const router = createRouter({
-  history: createWebHistory(),
+  history: createWebHashHistory(),
   routes,
-});
+})
 
-export default router;
+export default router
